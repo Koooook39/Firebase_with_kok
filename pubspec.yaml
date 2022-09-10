@@ -1,0 +1,57 @@
+name: firebase_getx
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+    sdk: '>=2.16.1 <3.0.0'
+dependencies:
+    flutter:
+        sdk: flutter
+    cupertino_icons: ^1.0.2
+    cloud_firestore: ^3.4.4
+    firebase_core: ^1.20.1
+    get: ^4.6.5
+    http: ^0.13.5
+    flutter_easyloading: ^3.0.5
+    intl: ^0.17.0
+    image_picker: ^0.8.5+3
+    firebase_storage: ^10.3.6
+    flutter_local_notifications: ^9.9.0
+    firebase_messaging: ^13.0.0
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    flutter_lints: ^1.0.0
+flutter:
+    uses-material-design: true
+
+
+  # To add assets to your application, add an assets section, like this:
+assets:
+ - assets/tunes/
+      
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+      
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+      
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
